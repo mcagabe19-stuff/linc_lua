@@ -30,6 +30,10 @@ extern class Lua {
 	public static inline var LUA_TUSERDATA:Int = 7;
 	public static inline var LUA_TTHREAD:Int = 8;
 	public static inline var LUA_MINSTACK:Int = 20;
+	@:native('::String(LUA_VERSION)')
+	static var version:String;
+
+	public static inline var versionJIT:String = "";
 
 	@:native('lua_pushnil')
 	static function pushnil(L:cpp.RawPointer<Lua_State>):Void;
