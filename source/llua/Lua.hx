@@ -30,9 +30,9 @@ extern class Lua {
 	public static inline var LUA_TUSERDATA:Int = 7;
 	public static inline var LUA_TTHREAD:Int = 8;
 	public static inline var LUA_MINSTACK:Int = 20;
-	public static inline var versionJIT:String = "";
-	@:native('::String(LUA_VERSION)')
-	static var version:String;
+	public static inline function versionJIT():String return ""; // return empty cuz hxlua is not JIT.
+        @:functionCode('return ::String(LUA_VERSION)')
+        public static inline function version():String return "";
 
 	@:native('lua_pushnil')
 	static function pushnil(L:cpp.RawPointer<Lua_State>):Void;
