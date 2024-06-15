@@ -3,52 +3,52 @@
 	<pragma once="true" />
 
 	<files id="haxe">
-		<compilerflag value="-I${haxelib:hxlua}/project/lua/src" />
+		<compilerflag value="-I${haxelib:linc_luajit}/project/lua/src" />
 
-		<include name="${haxelib:hxlua}/project/Defines.xml" />
+		<include name="${haxelib:linc_luajit}/project/Defines.xml" />
 	</files>
 
 	<files id="__main__">
-		<compilerflag value="-I${haxelib:hxlua}/project/lua/src" />
+		<compilerflag value="-I${haxelib:linc_luajit}/project/lua/src" />
 
-		<include name="${haxelib:hxlua}/project/Defines.xml" />
+		<include name="${haxelib:linc_luajit}/project/Defines.xml" />
 	</files>
 
 	<files id="lua">
-		<compilerflag value="-I${haxelib:hxlua}/project/lua/src" />
+		<compilerflag value="-I${haxelib:linc_luajit}/project/lua/src" />
 
-		<file name="${haxelib:hxlua}/project/lua/src/lapi.c" />
-		<file name="${haxelib:hxlua}/project/lua/src/lauxlib.c" />
-		<file name="${haxelib:hxlua}/project/lua/src/lbaselib.c" />
-		<file name="${haxelib:hxlua}/project/lua/src/lcode.c" />
-		<file name="${haxelib:hxlua}/project/lua/src/lcorolib.c" />
-		<file name="${haxelib:hxlua}/project/lua/src/lctype.c" />
-		<file name="${haxelib:hxlua}/project/lua/src/ldblib.c" />
-		<file name="${haxelib:hxlua}/project/lua/src/ldebug.c" />
-		<file name="${haxelib:hxlua}/project/lua/src/ldo.c" />
-		<file name="${haxelib:hxlua}/project/lua/src/ldump.c" />
-		<file name="${haxelib:hxlua}/project/lua/src/lfunc.c" />
-		<file name="${haxelib:hxlua}/project/lua/src/lgc.c" />
-		<file name="${haxelib:hxlua}/project/lua/src/linit.c" />
-		<file name="${haxelib:hxlua}/project/lua/src/liolib.c" />
-		<file name="${haxelib:hxlua}/project/lua/src/llex.c" />
-		<file name="${haxelib:hxlua}/project/lua/src/lmathlib.c" />
-		<file name="${haxelib:hxlua}/project/lua/src/lmem.c" />
-		<file name="${haxelib:hxlua}/project/lua/src/loadlib.c" />
-		<file name="${haxelib:hxlua}/project/lua/src/lobject.c" />
-		<file name="${haxelib:hxlua}/project/lua/src/lopcodes.c" />
-		<file name="${haxelib:hxlua}/project/lua/src/loslib.c" />
-		<file name="${haxelib:hxlua}/project/lua/src/lparser.c" />
-		<file name="${haxelib:hxlua}/project/lua/src/lstate.c" />
-		<file name="${haxelib:hxlua}/project/lua/src/lstring.c" />
-		<file name="${haxelib:hxlua}/project/lua/src/lstrlib.c" />
-		<file name="${haxelib:hxlua}/project/lua/src/ltable.c" />
-		<file name="${haxelib:hxlua}/project/lua/src/ltablib.c" />
-		<file name="${haxelib:hxlua}/project/lua/src/ltm.c" />
-		<file name="${haxelib:hxlua}/project/lua/src/lundump.c" />
-		<file name="${haxelib:hxlua}/project/lua/src/lutf8lib.c" />
-		<file name="${haxelib:hxlua}/project/lua/src/lvm.c" />
-		<file name="${haxelib:hxlua}/project/lua/src/lzio.c" />
+		<file name="${haxelib:linc_luajit}/project/lua/src/lapi.c" />
+		<file name="${haxelib:linc_luajit}/project/lua/src/lauxlib.c" />
+		<file name="${haxelib:linc_luajit}/project/lua/src/lbaselib.c" />
+		<file name="${haxelib:linc_luajit}/project/lua/src/lcode.c" />
+		<file name="${haxelib:linc_luajit}/project/lua/src/lcorolib.c" />
+		<file name="${haxelib:linc_luajit}/project/lua/src/lctype.c" />
+		<file name="${haxelib:linc_luajit}/project/lua/src/ldblib.c" />
+		<file name="${haxelib:linc_luajit}/project/lua/src/ldebug.c" />
+		<file name="${haxelib:linc_luajit}/project/lua/src/ldo.c" />
+		<file name="${haxelib:linc_luajit}/project/lua/src/ldump.c" />
+		<file name="${haxelib:linc_luajit}/project/lua/src/lfunc.c" />
+		<file name="${haxelib:linc_luajit}/project/lua/src/lgc.c" />
+		<file name="${haxelib:linc_luajit}/project/lua/src/linit.c" />
+		<file name="${haxelib:linc_luajit}/project/lua/src/liolib.c" />
+		<file name="${haxelib:linc_luajit}/project/lua/src/llex.c" />
+		<file name="${haxelib:linc_luajit}/project/lua/src/lmathlib.c" />
+		<file name="${haxelib:linc_luajit}/project/lua/src/lmem.c" />
+		<file name="${haxelib:linc_luajit}/project/lua/src/loadlib.c" />
+		<file name="${haxelib:linc_luajit}/project/lua/src/lobject.c" />
+		<file name="${haxelib:linc_luajit}/project/lua/src/lopcodes.c" />
+		<file name="${haxelib:linc_luajit}/project/lua/src/loslib.c" />
+		<file name="${haxelib:linc_luajit}/project/lua/src/lparser.c" />
+		<file name="${haxelib:linc_luajit}/project/lua/src/lstate.c" />
+		<file name="${haxelib:linc_luajit}/project/lua/src/lstring.c" />
+		<file name="${haxelib:linc_luajit}/project/lua/src/lstrlib.c" />
+		<file name="${haxelib:linc_luajit}/project/lua/src/ltable.c" />
+		<file name="${haxelib:linc_luajit}/project/lua/src/ltablib.c" />
+		<file name="${haxelib:linc_luajit}/project/lua/src/ltm.c" />
+		<file name="${haxelib:linc_luajit}/project/lua/src/lundump.c" />
+		<file name="${haxelib:linc_luajit}/project/lua/src/lutf8lib.c" />
+		<file name="${haxelib:linc_luajit}/project/lua/src/lvm.c" />
+		<file name="${haxelib:linc_luajit}/project/lua/src/lzio.c" />
 
 		<section if="macos">
 			<compilerflag value="-DLUA_USE_MACOSX" />
@@ -67,7 +67,7 @@
 			<compilerflag value="-DLUA_USE_DLOPEN" />
 		</section>
 
-		<include name="${haxelib:hxlua}/project/Defines.xml" />
+		<include name="${haxelib:linc_luajit}/project/Defines.xml" />
 	</files>
 
 	<target id="haxe">

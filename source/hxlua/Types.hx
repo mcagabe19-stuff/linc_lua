@@ -6,7 +6,7 @@ package hxlua;
 
 class Types {} // blank
 
-@:buildXml('<include name="${haxelib:hxlua}/project/Build.xml" />')
+@:buildXml('<include name="${haxelib:linc_luajit}/project/Build.xml" />')
 @:include('lua.hpp')
 @:native('lua_State')
 extern class Lua_State {}
@@ -29,7 +29,7 @@ typedef Lua_Unsigned = cpp.UInt64;
 /*
  * Type for continuation-function contexts.
  */
-@:buildXml('<include name="${haxelib:hxlua}/project/Build.xml" />')
+@:buildXml('<include name="${haxelib:linc_luajit}/project/Build.xml" />')
 @:include('lua.hpp')
 @:native('lua_KContext')
 @:scalar
@@ -72,7 +72,7 @@ typedef Lua_WarnFunction = cpp.Callable<(ud:cpp.RawPointer<cpp.Void>, msg:cpp.Co
  */
 typedef Lua_Hook = cpp.Callable<(L:cpp.RawPointer<Lua_State>, ar:cpp.RawPointer<Lua_Debug>) -> Void>;
 
-@:buildXml('<include name="${haxelib:hxlua}/project/Build.xml" />')
+@:buildXml('<include name="${haxelib:linc_luajit}/project/Build.xml" />')
 @:include('lua.hpp')
 @:unreflective
 @:structAccess
@@ -99,7 +99,7 @@ extern class Lua_Debug
 	var short_src:cpp.CharStar; /* (S) max size is LUA_IDSIZE */
 }
 
-@:buildXml('<include name="${haxelib:hxlua}/project/Build.xml" />')
+@:buildXml('<include name="${haxelib:linc_luajit}/project/Build.xml" />')
 @:include('lua.hpp')
 @:unreflective
 @:structAccess
@@ -115,7 +115,7 @@ extern class LuaL_Buffer
 	var L:cpp.RawPointer<Lua_State>;
 }
 
-@:buildXml('<include name="${haxelib:hxlua}/project/Build.xml" />')
+@:buildXml('<include name="${haxelib:linc_luajit}/project/Build.xml" />')
 @:include('lua.hpp')
 @:unreflective
 @:structAccess
