@@ -16,6 +16,7 @@
 
 	<files id="lua">
 		<compilerflag value="-I${haxelib:linc_luajit}/project/lua/src" />
+		<compilerflag value="-Dlua_getlocaledecpoint()='.'" />
 
 		<file name="${haxelib:linc_luajit}/project/lua/src/lapi.c" />
 		<file name="${haxelib:linc_luajit}/project/lua/src/lauxlib.c" />
